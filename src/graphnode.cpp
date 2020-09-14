@@ -11,7 +11,8 @@ GraphNode::~GraphNode()
     //// STUDENT CODE
     ////
 
-    delete _chatBot; 
+    // Causes a double object delete *Needs To Be Removed*
+    //delete _chatBot; 
 
     ////
     //// EOF STUDENT CODE
