@@ -44,7 +44,6 @@ ChatBot::~ChatBot() {
 ChatBot::ChatBot(const ChatBot &other) {
   std::cout << "Copy Constructor" << std::endl;
 
-  // Assuming ChatBot is initialized with no value
   *_image = *other._image;
 
   _rootNode = other._rootNode;
